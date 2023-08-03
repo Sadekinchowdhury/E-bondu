@@ -1,6 +1,6 @@
 
 
-const AboutText = () => {
+const About = () => {
     return (
         <section className="about_text">
             <div className="container">
@@ -44,4 +44,4 @@ const AboutText = () => {
     );
 };
 
-export default AboutText;
+export default About;

@@ -46,10 +46,10 @@ const Footer = () => {
                 {/* footer list */}
                 <div className="footer_data">
                     <ul className="footer_list">
-                        <li><a href="index.html">Home</a></li>
-                        <Link to=''>About </Link>
-                        <li  ><a href="#">Privacy Policy</a></li>
-                        <li  ><a href="#">Trams & Condition</a></li>
+                        <li><Link to='/' >Home</Link></li>
+                        <li>  <Link to='/about'>About </Link></li>
+                        <li  ><Link href="#">Privacy Policy</Link></li>
+                        <li  ><Link href="#">Trams & Condition</Link></li>
                     </ul>
                 </div>
 
