@@ -7,32 +7,32 @@ const Gallery = () => {
                 <div className="gallery">
                     <div className="gellary_item">
                         <a href="singleImg.html">
-                            <img src="assets/Image/ceo.jpeg" alt="" />
+                            <img src="../assets/Image/ceo.jpeg" alt="" />
                         </a>
                     </div>
                     <div className="gellary_item">
                         <a href="singleImg.html">
-                            <img src="assets/Image/ceo.jpeg" alt="" />
+                            <img src="../assets/Image/ceo.jpeg" alt="" />
                         </a>
                     </div>
                     <div className="gellary_item">
                         <a href="singleImg.html">
-                            <img src="assets/Image/hero_img.png" alt="" />
+                            <img src="../assets/Image/hero_img.png" alt="" />
                         </a>
                     </div>
                     <div className="gellary_item">
                         <a href="singleImg.html">
-                            <img src="assets/Image/ceo.jpeg" alt="" />
+                            <img src="../assets/Image/ceo.jpeg" alt="" />
                         </a>
                     </div>
                     <div className="gellary_item">
                         <a href="singleImg.html">
-                            <img src="assets/Image/ceo.jpeg" alt="" />
+                            <img src="../assets/Image/ceo.jpeg" alt="" />
                         </a>
                     </div>
                     <div className="gellary_item">
                         <a href="singleImg.html">
-                            <img src="assets/Image/ceo.jpeg" alt="" />
+                            <img src="../assets/Image/ceo.jpeg" alt="" />
                         </a>
                     </div>
 

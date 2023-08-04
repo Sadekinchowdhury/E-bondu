@@ -7,7 +7,7 @@ const Ons = () => {
                 <div className="ons_ceo">
                     <div className="ceo_img">
                         <div className="ceoImage">
-                            <img src="assets/Image/ceo.jpeg" alt="CEO Image" />
+                            <img src="../assets/Image/ceo.jpeg" alt="CEO Image" />
                         </div>
                         <h4>MD:SHARIFUL ISLAM SHARIF</h4>
                         <h4>CEO</h4>
@@ -39,7 +39,7 @@ const Ons = () => {
                     <div className="member_data">
                         <div className="member_img">
                             <div className="memberImage">
-                                <img src="assets/Image/ceo.jpeg" alt="CEO Image" />
+                                <img src="../assets/Image/ceo.jpeg" alt="CEO Image" />
                             </div>
                             <h5>MD:SHARIFUL ISLAM SHARIF</h5>
                             <h5>CEO</h5>
@@ -57,7 +57,7 @@ const Ons = () => {
                     {/* <div className="member_data">
               <div className="member_img">
                 <div className="memberImage">
-                  <img src="assets/Image/ceo.jpeg" alt="CEO Image" />
+                  <img src="../assets/Image/ceo.jpeg" alt="CEO Image" />
                 </div>
                 <h5>MD:SHARIFUL ISLAM SHARIF</h5>
                 <h5>CEO</h5>
@@ -76,7 +76,7 @@ const Ons = () => {
                     <div className="member_data">
                         <div className="member_img">
                             <div className="memberImage">
-                                <img src="assets/Image/ceo.jpeg" alt="CEO Image" />
+                                <img src="../assets/Image/ceo.jpeg" alt="CEO Image" />
                             </div>
                             <h5>MD:SHARIFUL ISLAM SHARIF</h5>
                             <h5>CEO</h5>
@@ -94,7 +94,7 @@ const Ons = () => {
                     {/* <div className="member_data">
               <div className="member_img">
                 <div className="memberImage">
-                  <img src="assets/Image/ceo.jpeg" alt="CEO Image" />
+                  <img src="../assets/Image/ceo.jpeg" alt="CEO Image" />
                 </div>
                 <h5>MD:SHARIFUL ISLAM SHARIF</h5>
                 <h5>CEO</h5>

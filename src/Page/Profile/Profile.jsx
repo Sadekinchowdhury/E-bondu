@@ -9,7 +9,7 @@ const Profile = () => {
                         <div className="text_id_profile">
                             <div className="img_icon_profile">
                                 <div className="img_profile">
-                                    <img src="assets/Image/profile1.jpg" alt="" />
+                                    <img src="../assets/Image/profile1.jpg" alt="" />
                                 </div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-camera-fill" viewBox="0 0 16 16">
                                     <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />

@@ -163,7 +163,7 @@ const Donation = () => {
                                 <div className="bank_dtl">
                                     <div className="donat_logo">
                                         <div className="donat_img">
-                                            <img src="assets/Image/bkash.png" alt="" />
+                                            <img src="../assets/Image/bkash.png" alt="" />
                                         </div>
                                     </div>
                                     <h2>City Bank</h2>
@@ -305,7 +305,7 @@ const Donation = () => {
                                 <div className="bank_dtl international_dtl">
                                     <div className="donat_logo">
                                         <div className="donat_img">
-                                            <img src="assets/Image/bkash.png" alt="" />
+                                            <img src="../assets/Image/bkash.png" alt="" />
                                         </div>
                                     </div>
                                     <h2>International Bank</h2>
@@ -438,7 +438,7 @@ const Donation = () => {
                                 <div className="bank_dtl">
                                     <div className="donat_logo">
                                         <div className="donat_img">
-                                            <img src="assets/Image/bkash.png" alt="" />
+                                            <img src="../assets/Image/bkash.png" alt="" />
                                         </div>
                                     </div>
                                     <h2>Bank</h2>

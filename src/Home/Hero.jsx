@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <div className="hero_data">
                     <div className="hero_img1">
                         {showImage
-                            ? <img className="it_logo" src="../assets/Image/hero_img.png" alt="img" /> : <div className=" ">
+                            ? <img className="it_logo" src="../../assets/Image/hero_img.png" alt="img" /> : <div className=" ">
                                 <p>Ours Visitors</p>
                                 <br />
                                 <div className="user">
@@ -37,12 +37,12 @@ const HeroSection = () => {
                     </div>
                     <div className="hero_img2">
                         {/* <div className="live"></div> */}
-                        {/* <video autoPlay loop src="assets/Video/video_2.mp4"></video> */}
-                        <img src="assets/Image/hero_img2.jpg" alt="img" />
+                        {/* <video autoPlay loop src="../assets/Video/video_2.mp4"></video> */}
+                        <img src="../assets/Image/hero_img2.jpg" alt="img" />
                     </div>
                     <div className="hero_img1">
                         {
-                            showImage ? <img className="it_logo" src="assets/Image/hero_img.jpg" alt="img" /> : <div className="">
+                            showImage ? <img className="it_logo" src="../assets/Image/hero_img.jpg" alt="img" /> : <div className="">
                                 <p>Total Members</p>
                                 <br />
                                 <div className="user">

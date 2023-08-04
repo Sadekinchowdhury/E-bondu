@@ -87,7 +87,7 @@ section {
 }
 
 .wrapper {
-    background-image: url('../assets/Image/bg3.jpg');
+    background-image: url('../../assets/Image/bg3.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
