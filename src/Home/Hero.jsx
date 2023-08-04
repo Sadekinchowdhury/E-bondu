@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <div className="hero_data">
                     <div className="hero_img1">
                         {showImage
-                            ? <img className="it_logo" src="../../assets/Image/hero_img.png" alt="img" /> : <div className=" ">
+                            ? <img className="it_logo" src="../assets/Image/hero_img.png" alt="img" /> : <div className=" ">
                                 <p>Ours Visitors</p>
                                 <br />
                                 <div className="user">
