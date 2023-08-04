@@ -16,6 +16,8 @@ import Profile from "../Page/Profile/Profile";
 import PrivacyText from "../Home/Privacy";
 import TermsAnd from "../Home/TermsAnd";
 import Blood from "../Page/Blood/Blood";
+import Donate from "../Page/Danate/Donate";
+
 
 const routes = createBrowserRouter([
     {
@@ -49,6 +51,7 @@ const routes = createBrowserRouter([
                 path: '/donation',
                 element: <Donation />
             },
+
             {
                 path: '/ons',
                 element: <Ons />
@@ -85,6 +88,10 @@ const routes = createBrowserRouter([
             {
                 path: '/terms',
                 element: <TermsAnd />
+            },
+            {
+                path: '/donate',
+                element: <Donate />
             }
         ]
     }
