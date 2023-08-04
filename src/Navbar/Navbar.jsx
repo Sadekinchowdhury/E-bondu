@@ -29,7 +29,7 @@ const Header = () => {
                                 </ul>
                             </div>
                             <li><Link to='/donation'>Donation</Link></li>
-                            <li><Link href="./bdr.html">Blood request</Link></li>
+                            <li><Link to='/blood'>Blood request</Link></li>
                             <li><Link to='/income'>Income Expenditure</Link></li>
                             <div className="dropdown">
                                 <li className="home">

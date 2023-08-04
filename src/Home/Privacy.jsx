@@ -1,8 +1,8 @@
 
 const PrivacyText = () => {
     return (
-        <section className="privacy_text">
-            <div className="container">
+        <section className=" ">
+            <div className=" ">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis dolores provident harum
                     recusandae deserunt inventore repellat quisquam error, nostrum sunt incidunt quos eius maiores

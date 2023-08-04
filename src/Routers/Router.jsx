@@ -7,12 +7,15 @@ import Foundation from "../Page/Foundation/Foundation";
 import Donation from "../Page/Donation/Donation";
 import Ons from "../Page/Ons/Ons";
 import Documantation from "../Page/Documentation/Documantation";
-import BloodRequest from "../Page/BloodRequest/BloodRequest";
+
 import Ffa from "../Page/Project/Ffa/Ffa";
 import Health from "../Page/Project/Health/Health";
 import Education from "../Page/Project/Education/Education";
 import About from "../Page/About/About";
 import Profile from "../Page/Profile/Profile";
+import PrivacyText from "../Home/Privacy";
+import TermsAnd from "../Home/TermsAnd";
+import Blood from "../Page/Blood/Blood";
 
 const routes = createBrowserRouter([
     {
@@ -23,6 +26,10 @@ const routes = createBrowserRouter([
                 path: '/',
                 element: <Home />
 
+            },
+            {
+                path: '/blood',
+                element: <Blood />
             },
 
             {
@@ -50,10 +57,7 @@ const routes = createBrowserRouter([
                 path: '/document',
                 element: <Documantation />
             },
-            {
-                path: '/blood',
-                element: <BloodRequest />
-            },
+
             {
                 path: '/ffa',
                 element: <Ffa />
@@ -73,6 +77,14 @@ const routes = createBrowserRouter([
             {
                 path: '/profile',
                 element: <Profile />
+            },
+            {
+                path: '/privacy',
+                element: <PrivacyText />
+            },
+            {
+                path: '/terms',
+                element: <TermsAnd />
             }
         ]
     }

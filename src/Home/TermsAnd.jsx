@@ -2,8 +2,8 @@
 
 const TermsAnd = () => {
     return (
-        <section className="trans_condition">
-            <div className="container">
+        <section className=" ">
+            <div className=" ">
                 <p>
                     Dolore eaque dolorem iusto reiciendis sint libero delectus illo quod reprehenderit at, molestias
                     sapiente saepe sed eum in ipsa adipisci quis labore consectetur necessitatibus fugit. Consectetur,

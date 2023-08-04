@@ -2,8 +2,8 @@
 
 const About = () => {
     return (
-        <section className="about_text">
-            <div className="container">
+        <section className=" ">
+            <div className=" ">
                 <p>
                     nostrum sunt incidunt quos eius maiores architecto dolore modi voluptas omnis ad dicta molestias,
                     labore itaque laudantium corrupti? Autem modi iure deleniti ea ratione blanditiis quis, saepe odit
