@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container">
                 <nav>
                     <div className="nav_logo">
-                        <Link href="#"><img src="assets/Image/logo.png" alt="Logo" /></Link>
+                        <Link href="#"><img src="assets/Image/logo.png" alt="" /></Link>
                     </div>
 
                     <div className="nav_menu">
@@ -53,7 +53,7 @@ const Header = () => {
                         <div className="search">
                             <form action="#" method="post" className="form_search">
                                 <input type="search" placeholder="Search" />
-                                <span type="submit"><img src="assets/Image/search.svg" alt="icon" /></span>
+                                <span type="submit"><img src="assets/Image/search.svg" alt="" /></span>
                             </form>
                             <button className="logout"><Link href="#">Logout</Link></button>
                             <div className="nav_toggol"><img src="assets/Image/circled-menu.png" alt="" /></div>
