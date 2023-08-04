@@ -1,19 +1,39 @@
+import { useEffect, useState } from "react";
 
 
 const HeroSection = () => {
+
+    const [showImage, setShowImage] = useState(true);
+
+
+    useEffect(() => {
+        const imageTimer = setTimeout(() => {
+            setShowImage(false);
+
+        }, 3000);
+
+        return () => {
+            clearTimeout(imageTimer);
+        };
+    }, []);
+
+
     return (
         <section className="hero">
             <div className="container">
                 <div className="hero_data">
                     <div className="hero_img1">
-                        <img className="it_logo" src="../assets/Image/hero_img.png" alt="" />
-                        <div className="hero_user">
-                            <p>Ours Visitors</p>
-                            <br />
-                            <div className="user">
-                                <h4>oooo2</h4>
+                        {showImage
+                            ? <img className="it_logo" src="../assets/Image/hero_img.png" alt="img" /> : <div className=" ">
+                                <p>Ours Visitors</p>
+                                <br />
+                                <div className="user">
+                                    <h4>oooo2</h4>
+                                </div>
                             </div>
-                        </div>
+                        }
+
+
                     </div>
                     <div className="hero_img2">
                         {/* <div className="live"></div> */}
@@ -21,14 +41,16 @@ const HeroSection = () => {
                         <img src="assets/Image/hero_img2.jpg" alt="img" />
                     </div>
                     <div className="hero_img1">
-                        <img className="it_logo" src="assets/Image/hero_img.jpg" alt="img" />
-                        <div className="hero_user">
-                            <p>Total Members</p>
-                            <br />
-                            <div className="user">
-                                <h4>oooo2</h4>
+                        {
+                            showImage ? <img className="it_logo" src="assets/Image/hero_img.jpg" alt="img" /> : <div className="">
+                                <p>Total Members</p>
+                                <br />
+                                <div className="user">
+                                    <h4>oooo2</h4>
+                                </div>
                             </div>
-                        </div>
+                        }
+
                     </div>
                 </div>
                 <marquee>

@@ -87,7 +87,7 @@ section {
 }
 
 .wrapper {
-    background-image: url('../Image/bg3.jpg');
+    background-image: url('../assets/Image/bg3.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -272,10 +272,10 @@ button:hover {
 }
 
 .hero_img1 img {
-    animation: myfirst 1s linear 1s 1 alternate;
+    animation: it-logo 1s linear 1s 1 alternate;
 }
 
-@keyframes myfirst {
+@keyframes it-logo {
     0% {
         width: 0px;
     }

@@ -8,9 +8,8 @@ import Slider from "./Slider";
 
 const Home = () => {
     return (
-        <div>
+        <div className="wrapper">
             <HeroSection />
-
             <Slider />
 
         </div>
