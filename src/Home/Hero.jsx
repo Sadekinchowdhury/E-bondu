@@ -38,7 +38,7 @@ const HeroSection = () => {
                     <div className="hero_img2">
                         {/* <div className="live"></div> */}
                         {/* <video autoPlay loop src="../assets/Video/video_2.mp4"></video> */}
-                        <img src="../assets/Image/hero_img2.jpg" alt="img" />
+                        <img src="..//../assets/Image/hero_img2.jpg" alt="img" />
                     </div>
                     <div className="hero_img1">
                         {
